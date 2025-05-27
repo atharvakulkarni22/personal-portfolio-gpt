@@ -1,0 +1,57 @@
+Atharva Jitendra Kulkarni
+Dallas, TX, US | 945-257-4028 | atharva.kulkarni99@gmail.com | LinkedIn | GitHub | LeetCode
+
+SUMMARY
+Software Engineer with 2+ years of professional work experience in full stack development. Passionate about building scalable, secure, robust and high performing solutions. Seeking opportunities to create impactful solutions through software engineering.
+
+TECHNICAL SKILLS
+•	Programming Languages: Java, JavaScript, C#, Python, HTML, CSS, SQL 
+•	Frameworks: Spring Boot, React, Asp.Net, Hibernate, JPA, Junit, Mockito, TestNG, Kafka, Apache Spark
+•	Tools: Git, CI/CD, Docker, Postman, Jenkins, Jira, Gerrit, Redux, GitHub, Hive, Hadoop 
+•	Database and Cloud: PostgreSQL, MySQL, Microsoft SQL Server, MongoDB, AWS (EC2, S3 and Lambda)
+
+PROFESSIONAL EXPERIENCE
+   Associate Software Engineer - ACI Worldwide, Pune, IN	   August 2021 – July 2023
+•	Implemented Click2Pay and mobile wallets (Apple Pay and Google Pay) support for Chase and Barclays banks in the payment gateway utilizing Java and Spring Boot expanding customer payment options by 40%. 
+•	Designed a dedicated CI/CD pipeline with Jenkins, Gerrit, and Docker to automate 99% of manual tasks.
+•	Administered the deployment of Petco gift cards using JavaScript, achieving an expected ARR of $20 million in 3 months, resulting in increased revenue for the client.
+•	Utilized Junit, Mockito and TestNG testing frameworks to ensure enhanced software reliability and SonarQube for comprehensive code coverage analysis. 
+•	Enhanced API development for developing RESTful microservices, and backend REST APIs and testing utilizing Postman.
+•	Delivered technical support and troubleshooting proficiency to clients and internal teams, leading to prompt issue resolution, and sustaining exceptional customer satisfaction with 0 defects on production releases.
+
+   Software Engineering Intern - Oriole Labs Pvt Ltd, Pune, IN                                                                                           January 2020 – May 2020
+•	Crafted a user management system using C# Asp.Net, JavaScript, Microsoft SQL supporting over 1,000 users. 
+•	Proposed MVC architecture for enhanced security, ensuring 70% of core functionality is managed at the database level.
+•	Revamped cross-platform application development using Bootstrap for desktops, cellphones, and tablets, resulting in increased user accessibility and engagement across all devices by 50%.
+•	Collaborated in Agile development teams, participating in sprint planning, daily stand-ups, and sprint retrospectives, ensuring timely delivery of software by following iterative development cycles and continuous feedback loops. 
+
+PROJECTS
+Portfolio Website| React, JavaScript, Tailwind CSS, GitHub Pages | [Link]                                                                  March 2025 – April 2025                                      
+•	Designed a responsive personal portfolio website showcasing projects, skills, and contact information.
+•	Deployed the website demonstrating proficiency in modern frontend development and hosting tools.
+Automated Prerequisite Waiver System | Python, Flask, JavaScript, NLTK, Scikit-Learn | [Link]          November 2023 – December 2023                                      
+•	Engineered a prototype for an automated prerequisite waiver system making use of 4 different text-matching algorithms.
+•	Streamlined the process for graduate students by enabling them to appeal and obtain waivers for 90% of graduate subjects based on their undergraduate coursework.
+Grocery Store Web Application | JavaScript, Bootstrap, jQuery, AJAX, MySQL| [Link]                        September 2023 – November 2023                                                                                         
+•	Developed a grocery store web application reducing page load times by 20% to provide users with a seamless online shopping experience, including product selection, and a shopping cart feature.
+•	Constructed a database, and JSON for efficient data storage and retrieval, ensuring optimal performance. Designed the responsive website for compatibility across 90% of devices.
+Two Stage Traffic Sign Classifier | Python, CNN, YOLOv3, MSSQL | [Link]	   July 2020 – May 2020
+•	Built a traffic sign classifier using a two-stage approach for initial object detection and classify traffic signs into four categories: prohibitory, mandatory, danger, and others.
+•	Upgraded the 26-layer CNN model to classify images into 43 categories with 97% accuracy, following image cropping and processing. Successfully trained the YOLOv3 model on the GTSRB dataset for 8,000 epochs.
+
+EDUCATION
+   Master of Science, Computer Science                                                                                                                                                  August 2023 – May 2025
+   University of Texas at Dallas, Dallas, TX, US	   GPA – 3.78/4
+   Bachelor of Engineering, Information Technology                                                                                                            August 2017 – May 2021
+   Savitribai Phule Pune University, Pune, IN	   GPA – 9.25/10
+
+
+Dear Hiring Manager,
+With a Master’s degree in Computer Science from the University of Texas at Dallas, and over two years of professional experience as a software engineer, I believe I possess technical expertise, problem-solving skills, and teamwork abilities that align well with your needs.
+Problem Solving: I encountered a situation where I was tasked with developing an API for a client company. However, our team faced a challenge as we did not have an Architect onboard. Despite this obstacle, I took the initiative to generate multiple feasible solutions among which one was selected after careful feedback.  This ability in this area would help me keep complex projects running smoothly and on time at the company.
+Quick Learner: I was assigned an interesting project with a codebase that included Java, and Spring Boot technologies. At the time, Spring Boot was completely new to me. However, I was undeterred and committed to delivering the project on time. I quickly immersed myself in studying necessary documentation and utilizing company resources. As a result, I successfully delivered the project within a tight deadline of 2 months. This ability to rapidly grasp and apply complex concepts would allow me to efficiently tackle new projects and consistently deliver results for the company.
+Programming Effectively: This is my favorite skill, as it involves coding and coding efficiently. Figuring out how to do things the right way is always useful. I restructured multiple projects till now to include necessary design patterns to tackle specific problems including a project in my full-time as well as curriculum. This ability to perform best practices and design patterns will help the company keep its codebase clean and bug-free.
+In closing, I think this would be a great mutual fit. Please contact me at 945-257-4028 or atharva.kulkarni99@gmail.com.
+
+Sincerely, 
+Atharva Jitendra Kulkarni
