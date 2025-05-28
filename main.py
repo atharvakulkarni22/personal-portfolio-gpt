@@ -27,7 +27,7 @@ def get_qa_chain():
     with open("resume_and_cover_letter.txt", "r", encoding="utf-8") as f:
         text = f.read()
 
-    chunks = CharacterTextSplitter(chunk_size=500, chunk_overlap=50).split_text(text)
+    chunks = CharacterTextSplitter(chunk_size=10, chunk_overlap=6).split_text(text)
     docs = [Document(page_content=chunk) for chunk in chunks]
 
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
