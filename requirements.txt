@@ -2,3 +2,9 @@ langchain
 openai
 faiss-cpu
 streamlit
+sentence-transformers
+huggingface-hub
+langchain-community
+huggingface_hub
+python-dotenv
+uvicorn
