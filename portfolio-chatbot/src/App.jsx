@@ -13,7 +13,7 @@ function App() {
     setMessages(prev => [...prev, userMessage]);
 
     try {
-      const res = await axios.post("http://localhost:8000/ask", { question: input });
+      const res = await axios.post("https://personal-portfolio-gpt-backend.vercel.app/ask", { question: input });
       
       // Handle nested response structure
       let botResponse;
