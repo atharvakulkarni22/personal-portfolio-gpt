@@ -81,7 +81,6 @@ qa_chain = get_qa_chain()
 def ask_question(query: Query):
     try:
         response = qa_chain.invoke({"query": query.question})
-        print(f"Response: {response}")
         
         # Extract the result properly
         if isinstance(response, dict) and 'result' in response:
