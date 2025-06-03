@@ -38,7 +38,7 @@ def get_qa_chain():
     retriever = vectorstore.as_retriever(search_type="similarity", k=5)
 
     # Better model for improved understanding
-    model_id = "google/flan-t5-large"
+    model_id = "google/flan-t5-base"
     tokenizer = AutoTokenizer.from_pretrained(model_id)
     model = AutoModelForSeq2SeqLM.from_pretrained(model_id)
 
