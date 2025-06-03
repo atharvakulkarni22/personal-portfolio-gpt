@@ -1,64 +1,53 @@
-Atharva Jitendra Kulkarni\n
-Dallas, TX, US | 945-257-4028 | atharva.kulkarni99@gmail.com | LinkedIn | GitHub | LeetCode\n
-\n
-SUMMARY\n
-Software Engineer with 2+ years of professional work experience in full stack development. Passionate about building scalable, secure, robust and high performing solutions. Seeking opportunities to create impactful solutions through software engineering.\n
-\n
-TECHNICAL SKILLS\n
-•	Programming Languages: Java, JavaScript, C#, Python, HTML, CSS, SQL \n
-•	Frameworks: Spring Boot, React, Asp.Net, Hibernate, JPA, Junit, Mockito, TestNG, Kafka, Apache Spark\n
-•	Tools: Git, CI/CD, Docker, Postman, Jenkins, Jira, Gerrit, Redux, GitHub, Hive, Hadoop \n
-•	Database and Cloud: PostgreSQL, MySQL, Microsoft SQL Server, MongoDB, AWS (EC2, S3 and Lambda)\n
-\n
-PROFESSIONAL EXPERIENCE\n
-Associate Software Engineer - ACI Worldwide, Pune, IN	   August 2021 – July 2023\n
-•	Implemented Click2Pay and mobile wallets (Apple Pay and Google Pay) support for Chase and Barclays banks in the payment gateway utilizing Java and Spring Boot expanding customer payment options by 40%.\n
-•	Designed a dedicated CI/CD pipeline with Jenkins, Gerrit, and Docker to automate 99% of manual tasks.\n
-•	Administered the deployment of Petco gift cards using JavaScript, achieving an expected ARR of $20 million in 3 months, resulting in increased revenue for the client.\n
-•	Utilized Junit, Mockito and TestNG testing frameworks to ensure enhanced software reliability and SonarQube for comprehensive code coverage analysis. \n
-•	Enhanced API development for developing RESTful microservices, and backend REST APIs and testing utilizing Postman.\n
-•	Delivered technical support and troubleshooting proficiency to clients and internal teams, leading to prompt issue resolution, and sustaining exceptional customer satisfaction with 0 defects on production releases.\n
-\n
-Software Engineering Intern - Oriole Labs Pvt Ltd, Pune, IN                                                                                           January 2020 – May 2020\n
-•	Crafted a user management system using C# Asp.Net, JavaScript, Microsoft SQL supporting over 1,000 users. \n
-•	Proposed MVC architecture for enhanced security, ensuring 70% of core functionality is managed at the database level.\n
-•	Revamped cross-platform application development using Bootstrap for desktops, cellphones, and tablets, resulting in increased user accessibility and engagement across all devices by 50%.\n
-•	Collaborated in Agile development teams, participating in sprint planning, daily stand-ups, and sprint retrospectives, ensuring timely delivery of software by following iterative development cycles and continuous feedback loops. \n
-\n
-PROJECTS\n
-Portfolio Website| React, JavaScript, Tailwind CSS, GitHub Pages | [Link]                                                                  March 2025 – April 2025\n
-•	Designed a responsive personal portfolio website showcasing projects, skills, and contact information.\n
-•	Deployed the website demonstrating proficiency in modern frontend development and hosting tools.\n
-\n
-Automated Prerequisite Waiver System | Python, Flask, JavaScript, NLTK, Scikit-Learn | [Link]          November 2023 – December 2023\n
-•	Engineered a prototype for an automated prerequisite waiver system making use of 4 different text-matching algorithms.\n
-•	Streamlined the process for graduate students by enabling them to appeal and obtain waivers for 90% of graduate subjects based on their undergraduate coursework.\n
-\n
-Grocery Store Web Application | JavaScript, Bootstrap, jQuery, AJAX, MySQL| [Link]                        September 2023 – November 2023\n
-•	Developed a grocery store web application reducing page load times by 20% to provide users with a seamless online shopping experience, including product selection, and a shopping cart feature.\n
-•	Constructed a database, and JSON for efficient data storage and retrieval, ensuring optimal performance. Designed the responsive website for compatibility across 90% of devices.\n
-\n
-Two Stage Traffic Sign Classifier | Python, CNN, YOLOv3, MSSQL | [Link]	   July 2020 – May 2020\n
-•	Built a traffic sign classifier using a two-stage approach for initial object detection and classify traffic signs into four categories: prohibitory, mandatory, danger, and others.\n
-•	Upgraded the 26-layer CNN model to classify images into 43 categories with 97% accuracy, following image cropping and processing. Successfully trained the YOLOv3 model on the GTSRB dataset for 8,000 epochs.\n
-\n
-EDUCATION\n
-Master of Science, Computer Science                                                                                                                                                  August 2023 – May 2025\n
-University of Texas at Dallas, Dallas, TX, US	   GPA – 3.78/4\n
-\n
-Bachelor of Engineering, Information Technology                                                                                                            August 2017 – May 2021\n
-Savitribai Phule Pune University, Pune, IN	   GPA – 9.25/10\n
-\n
-Dear Hiring Manager,\n
-With a Master’s degree in Computer Science from the University of Texas at Dallas, and over two years of professional experience as a software engineer, I believe I possess technical expertise, problem-solving skills, and teamwork abilities that align well with your needs.\n
-\n
-Problem Solving: I encountered a situation where I was tasked with developing an API for a client company. However, our team faced a challenge as we did not have an Architect onboard. Despite this obstacle, I took the initiative to generate multiple feasible solutions among which one was selected after careful feedback.  This ability in this area would help me keep complex projects running smoothly and on time at the company.\n
-\n
-Quick Learner: I was assigned an interesting project with a codebase that included Java, and Spring Boot technologies. At the time, Spring Boot was completely new to me. However, I was undeterred and committed to delivering the project on time. I quickly immersed myself in studying necessary documentation and utilizing company resources. As a result, I successfully delivered the project within a tight deadline of 2 months. This ability to rapidly grasp and apply complex concepts would allow me to efficiently tackle new projects and consistently deliver results for the company.\n
-\n
-Programming Effectively: This is my favorite skill, as it involves coding and coding efficiently. Figuring out how to do things the right way is always useful. I restructured multiple projects till now to include necessary design patterns to tackle specific problems including a project in my full-time as well as curriculum. This ability to perform best practices and design patterns will help the company keep its codebase clean and bug-free.\n
-\n
-In closing, I think this would be a great mutual fit. Please contact me at 945-257-4028 or atharva.kulkarni99@gmail.com.\n
-\n
-Sincerely, \n
-Atharva Jitendra Kulkarni\n
+My name is Atharva Jitendra Kulkarni and I am a software engineer currently based in Dallas, TX, US. You can reach me at 945-257-4028 or email me at atharva.kulkarni99@gmail.com. I actively maintain my profiles on LinkedIn, GitHub, and LeetCode to showcase my work and engage with the tech community.
+
+I have over 2 years of professional experience in full stack development, and I am passionate about building scalable, secure, robust, and high-performing software systems. I'm always on the lookout for opportunities where I can apply my engineering skills to create meaningful impact.
+
+SKILLS
+Programming Languages: Java, JavaScript, C#, Python, HTML, CSS, SQL
+Frameworks & Libraries: Spring Boot, React, ASP.NET, Hibernate, JPA, JUnit, Mockito, TestNG, Kafka, Apache Spark
+Tools: Git, CI/CD pipelines, Docker, Postman, Jenkins, Jira, Gerrit, Redux, GitHub, Hive, Hadoop
+Databases & Cloud: PostgreSQL, MySQL, Microsoft SQL Server, MongoDB, AWS (EC2, S3, and Lambda)
+
+PROFESSIONAL EXPERIENCE
+I worked as an Associate Software Engineer at ACI Worldwide in Pune, India from August 2021 to July 2023.
+During this time, I implemented Click2Pay and integrated Apple Pay and Google Pay into our payment gateway systems for Chase and Barclays using Java and Spring Boot, which expanded payment options for customers by 40%.
+I built a dedicated CI/CD pipeline with Jenkins, Gerrit, and Docker, automating nearly all manual processes.
+I deployed Petco gift cards using JavaScript, which helped the client project an ARR of $20 million in just 3 months.
+I ensured code reliability with unit testing frameworks like JUnit, Mockito, and TestNG, and used SonarQube for code coverage analysis.
+I developed RESTful APIs and microservices and tested them with Postman.
+I also provided tech support to internal teams and clients, resolving issues efficiently and ensuring zero defects in production releases.
+
+Before that, I interned at Oriole Labs Pvt Ltd in Pune from January 2020 to May 2020.
+I developed a user management system using C#, ASP.NET, JavaScript, and SQL that supported 1,000+ users.
+I proposed and implemented MVC architecture for secure operations and shifted most functionality to the database level.
+I redesigned our application for cross-platform compatibility using Bootstrap, boosting user engagement by 50%.
+I also worked in an Agile team, participating in regular sprint planning, daily standups, and retrospectives.
+
+PROJECTS
+Portfolio Website (March–April 2025): I designed and deployed a responsive portfolio website using React, JavaScript, Tailwind CSS, and GitHub Pages to showcase my work and contact information.
+Automated Prerequisite Waiver System (Nov–Dec 2023): I created a prototype with Python, Flask, NLTK, and Scikit-learn using 4 different text-matching algorithms to help graduate students obtain waivers for 90% of subjects based on their past coursework.
+Grocery Store Web App (Sept–Nov 2023): I developed an e-commerce site using JavaScript, jQuery, AJAX, and MySQL that reduced load times by 20%, supported carts, and ensured 90%+ device compatibility.
+Two-Stage Traffic Sign Classifier (July 2020 – May 2020): I built a classifier using CNN and YOLOv3 in Python to detect and classify traffic signs with 97% accuracy, using a 26-layer CNN trained on the GTSRB dataset.
+
+EDUCATION
+I’m currently pursuing a Master of Science in Computer Science at the University of Texas at Dallas (expected graduation May 2025) and I currently hold a GPA of 3.78/4.
+I completed my Bachelor of Engineering in Information Technology at Savitribai Phule Pune University in May 2021 with a GPA of 9.25/10.
+
+INTERVIEW RESPONSES
+About myself - Hi, I’m Atharva Kulkarni. I’ve been working in Software Engineering for over 3 years, specializing in Full Stack Development. The kind of work—where I can connect business needs to technical solutions and make life easier for end users—is what I’m truly passionate about. In my previous project, I have worked on mobile wallets, Click2Pay, and gift cards as payment options, which expanded payment choices for the end users by 40%. I also bring with me a portfolio of projects involving Java and JavaScript.
+
+My strengths - My main strength is proactive problem-solving. I not only fix issues but anticipate them. I like to go beyond standard developer tasks and collaborate cross-functionally to improve user experience and promote system efficiency through process improvements.
+
+Have you ever disagreed with a team member's approach? Yes. During a project to implement a payment gateway for an e-commerce client, my teammate initially preferred using the traditional REST API approach to check payment statuses. However, I suggested using a Webhook instead, to avoid unnecessary API calls to the bank server and eliminate customer wait time during payment confirmation. I built a quick demo to show the advantage, which helped gain consensus. This experience highlighted the importance of effective communication and prototyping to align teams.
+
+Cross-functional collaboration: During a billing project, the frontend team was sending unnecessary data to the backend. I explained the performance and security benefits of sending only required data. After a constructive discussion, they updated their implementation. This improved performance and security.
+
+What if they still disagree? I acknowledge their concerns, propose a compromise, and if needed, loop in the project lead and security architect to make an informed decision.
+
+Challenging project: In one project using Salesforce CRM Analytics, I had to clean and classify 4,000+ case records manually before building dashboards. After data ingestion failed silently, I troubleshooted for two days and escalated the issue to Salesforce support. The root cause was an inactive integration user account. Once reactivated, everything worked. I learned the importance of timely escalation, persistence, and team coordination.
+
+Prioritizing multiple projects: At APL Logistics, I worked on DPS compliance in Salesforce, CRM integrations, and support tickets simultaneously. I reviewed weekly priorities with my manager, broke tasks into chunks, and used Jira for tracking. Clear communication and planning helped me deliver all tasks on time.
+
+Strengths and weaknesses: A key strength is my hands-on approach and structured planning. A weakness I’m working on is delegating more—I'm learning to empower team members by trusting them with ownership.
+
+Closing: With a Master’s degree in Computer Science from the University of Texas at Dallas and 2+ years of experience, I bring technical expertise, quick learning, and a strong work ethic. I’m looking forward to a workplace where I can contribute meaningfully. Please feel free to contact me at 945-257-4028 or atharva.kulkarni99@gmail.com.

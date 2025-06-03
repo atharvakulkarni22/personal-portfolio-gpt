@@ -13,9 +13,21 @@ function App() {
 
     try {
       const res = await axios.post("http://localhost:8000/ask", { question: input });
-      const botMessage = { sender: "bot", text: res.data.answer };
+      
+      // Handle nested response structure
+      let botResponse;
+      if (typeof res.data.answer === 'object' && res.data.answer.result) {
+        botResponse = res.data.answer.result;
+      } else if (typeof res.data.answer === 'string') {
+        botResponse = res.data.answer;
+      } else {
+        botResponse = JSON.stringify(res.data.answer);
+      }
+      
+      const botMessage = { sender: "bot", text: botResponse };
       setMessages(prev => [...prev, botMessage]);
     } catch (err) {
+      console.error("Error:", err);
       const errorMsg = { sender: "bot", text: "Something went wrong. Please try again." };
       setMessages(prev => [...prev, errorMsg]);
     }
@@ -29,7 +41,11 @@ function App() {
         <h1 className="text-2xl font-bold mb-4">🧑‍💼 Portfolio GPT Chat</h1>
         <div className="h-96 overflow-y-auto flex flex-col gap-2 border border-gray-700 p-2 rounded">
           {messages.map((msg, idx) => (
-            <div key={idx} className={`p-2 rounded-lg ${msg.sender === "user" ? "bg-blue-500 self-end" : "bg-green-600 self-start"}`}>
+            <div key={idx} className={`p-2 rounded-lg max-w-xs ${
+              msg.sender === "user" 
+                ? "bg-blue-500 self-end ml-auto" 
+                : "bg-green-600 self-start mr-auto"
+            }`}>
               {msg.text}
             </div>
           ))}
@@ -37,7 +53,7 @@ function App() {
         <div className="flex gap-2 mt-4">
           <input
             type="text"
-            className="flex-1 p-2 rounded bg-gray-700 border border-gray-600"
+            className="flex-1 p-2 rounded bg-gray-700 border border-gray-600 text-white"
             placeholder="Ask something..."
             value={input}
             onChange={(e) => setInput(e.target.value)}
@@ -45,7 +61,7 @@ function App() {
           />
           <button
             onClick={handleSend}
-            className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded"
+            className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded transition-colors"
           >
             Send
           </button>

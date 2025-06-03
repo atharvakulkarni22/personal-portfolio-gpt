@@ -6,11 +6,12 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.llms import HuggingFacePipeline
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
 from langchain.chains import RetrievalQA
-from langchain_community.llms import HuggingFaceHub
 from langchain.text_splitter import CharacterTextSplitter
 from langchain.docstore.document import Document
+from langchain.prompts import PromptTemplate
 import os
 from dotenv import load_dotenv
+
 load_dotenv()
 
 app = FastAPI()
@@ -29,14 +30,15 @@ def get_qa_chain():
     with open("resume_and_cover_letter.txt", "r", encoding="utf-8") as f:
         text = f.read()
 
-    chunks = CharacterTextSplitter(chunk_size=100, chunk_overlap=10).split_text(text)
+    chunks = CharacterTextSplitter(chunk_size=800, chunk_overlap=100).split_text(text)
     docs = [Document(page_content=chunk) for chunk in chunks]
 
     embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
     vectorstore = FAISS.from_documents(docs, embeddings)
-    retriever = vectorstore.as_retriever(search_type="similarity", k=3)
+    retriever = vectorstore.as_retriever(search_type="similarity", k=5)
 
-    model_id = "google/flan-t5-base"
+    # Better model for improved understanding
+    model_id = "google/flan-t5-large"
     tokenizer = AutoTokenizer.from_pretrained(model_id)
     model = AutoModelForSeq2SeqLM.from_pretrained(model_id)
 
@@ -44,13 +46,34 @@ def get_qa_chain():
         "text2text-generation",
         model=model,
         tokenizer=tokenizer,
-        max_new_tokens=256,
-        temperature=0.5
+        max_new_tokens=1000,
+        temperature=0.2,
+        do_sample=True,
+        top_p=0.9,
+        repetition_penalty=1.1
     )
 
     llm = HuggingFacePipeline(pipeline=pipe)
 
-    return RetrievalQA.from_chain_type(llm=llm, retriever=retriever)
+    # Custom prompt for better responses
+    prompt_template = """Based on the resume and cover letter context below, provide a comprehensive and professional answer to the question.
+
+Context: {context}
+
+Question: {question}
+
+Answer:"""
+    
+    PROMPT = PromptTemplate(
+        template=prompt_template,
+        input_variables=["context", "question"]
+    )
+
+    return RetrievalQA.from_chain_type(
+        llm=llm,
+        retriever=retriever,
+        chain_type_kwargs={"prompt": PROMPT}
+    )
 
 qa_chain = get_qa_chain()
 
@@ -59,6 +82,13 @@ def ask_question(query: Query):
     try:
         response = qa_chain.invoke({"query": query.question})
         print(f"Response: {response}")
-        return {"answer": response}
+        
+        # Extract the result properly
+        if isinstance(response, dict) and 'result' in response:
+            answer = response['result']
+        else:
+            answer = str(response)
+            
+        return {"answer": answer}
     except Exception as e:
         return {"error": str(e)}
