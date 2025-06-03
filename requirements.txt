@@ -1,7 +1,10 @@
+fastapi
+uvicorn
 langchain
+langchain-community
 faiss-cpu
 sentence-transformers
-huggingface-hub
-langchain-community
+transformers
+torch
 python-dotenv
-uvicorn
+huggingface-hub
