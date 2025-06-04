@@ -37,7 +37,6 @@ def get_qa_chain():
     vectorstore = FAISS.from_documents(docs, embeddings)
     retriever = vectorstore.as_retriever(search_type="similarity", k=5)
 
-    # Better model for improved understanding
     model_id = "google/flan-t5-base"
     tokenizer = AutoTokenizer.from_pretrained(model_id)
     model = AutoModelForSeq2SeqLM.from_pretrained(model_id)
@@ -55,7 +54,6 @@ def get_qa_chain():
 
     llm = HuggingFacePipeline(pipeline=pipe)
 
-    # Custom prompt for better responses
     prompt_template = """Based on the resume and cover letter context below, provide a comprehensive and professional answer to the question.
 
 Context: {context}
@@ -82,7 +80,6 @@ def ask_question(query: Query):
     try:
         response = qa_chain.invoke({"query": query.question})
         
-        # Extract the result properly
         if isinstance(response, dict) and 'result' in response:
             answer = response['result']
         else:
