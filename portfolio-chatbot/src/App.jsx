@@ -15,7 +15,6 @@ function App() {
     try {
       const res = await axios.post("https://personal-portfolio-gpt-backend.vercel.app/ask", { question: input });
       
-      // Handle nested response structure
       let botResponse;
       if (typeof res.data.answer === 'object' && res.data.answer.result) {
         botResponse = res.data.answer.result;
@@ -39,12 +38,10 @@ function App() {
   return (
     <div className="h-screen w-screen bg-gray-900 text-white flex items-center justify-center p-4">
       <div className="w-full max-w-4xl h-full max-h-[90vh] bg-gray-800 rounded-xl shadow-2xl flex flex-col">
-        {/* Header */}
         <div className="p-6 border-b border-gray-700">
           <h1 className="text-3xl font-bold text-center">Atharva's Portfolio Chatbot</h1>
         </div>
         
-        {/* Messages Container */}
         <div className="flex-1 overflow-y-auto p-4 space-y-3">
           {messages.length === 0 ? (
             <div className="flex items-center justify-center h-full">
@@ -68,7 +65,6 @@ function App() {
           )}
         </div>
         
-        {/* Input Container */}
         <div className="p-4 border-t border-gray-700">
           <div className="flex gap-3">
             <input
