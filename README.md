@@ -38,7 +38,6 @@ A personalized chatbot built using **LangChain**, **FastAPI**, **React**, and **
 2. **Install Requirements:**
       ```bash
       pip install -r requirements.txt
-      If you don’t have a requirements.txt, install the following manually:
 
 4. **Add your resume and cover letter text file.**
 
